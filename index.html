@@ -70,6 +70,7 @@
           <li><a href="#button-manager">Button Manager</a></li>
           <li><a href="#payflow-gateway">Payflow Gateway</a></li>
           <li><a title="PayPal Payments Pro(Payflow edition)" href="#ppo-payflow">Payments Pro</a></li>
+          <li><a title="Windows 8 Checkout SDK" href="#win8-checkout">Windows 8 SDK</a></li>
         </ul>
       </div>
     </div>
@@ -212,7 +213,7 @@
   <li>NuGet 2.2 Note: NuGet 2.2 requires .NET Framework 4.0</li>
 </ul>
         <h2>Installation</h2>
-<p>Run the following command in the Package Manager Console:</p>
+<p>Run the following command in the NuGet Package Manager Console:</p>
 <pre>Install-Package RestApiSDK</pre>
         <h2>Links</h2>
         <ul>
@@ -354,7 +355,7 @@
   <li>NuGet 2.2 Note: NuGet 2.2 requires .NET Framework 4.0</li>
 </ul>
         <h2>Installation</h2>
-<p>Run the following command in the Package Manager Console:</p>
+<p>Run the following command in the NuGet Package Manager Console:</p>
 <pre>Install-Package PayPalAdaptivePaymentsSDK</pre>
         <h2>Links</h2>
         <ul>
@@ -496,7 +497,7 @@
   <li>NuGet 2.2 Note: NuGet 2.2 requires .NET Framework 4.0</li>
 </ul>
         <h2>Installation</h2>
-<p>Run the following command in the Package Manager Console:</p>
+<p>Run the following command in the NuGet Package Manager Console:</p>
 <pre>Install-Package PayPalAdaptiveAccountsSDK</pre>
         <h2>Links</h2>
         <ul>
@@ -638,7 +639,7 @@
   <li>NuGet 2.2 Note: NuGet 2.2 requires .NET Framework 4.0</li>
 </ul>
         <h2>Installation</h2>
-<p>Run the following command in the Package Manager Console:</p>
+<p>Run the following command in the NuGet Package Manager Console:</p>
 <pre>Install-Package PayPalInvoiceSDK</pre>
         <h2>Links</h2>
         <ul>
@@ -780,7 +781,7 @@
   <li>NuGet 2.2 Note: NuGet 2.2 requires .NET Framework 4.0</li>
 </ul>
         <h2>Installation</h2>
-<p>Run the following command in the Package Manager Console:</p>
+<p>Run the following command in the NuGet Package Manager Console:</p>
 <pre>Install-Package PayPalPermissionsSDK</pre>
         <h2>Links</h2>
         <ul>
@@ -922,7 +923,7 @@
   <li>NuGet 2.2 Note: NuGet 2.2 requires .NET Framework 4.0</li>
 </ul>
         <h2>Installation</h2>
-<p>Run the following command in the Package Manager Console:</p>
+<p>Run the following command in the NuGet Package Manager Console:</p>
 <pre>Install-Package PayPalMerchantSDK</pre>
         <h2>Links</h2>
         <ul>
@@ -1064,7 +1065,7 @@
   <li>NuGet 2.2 Note: NuGet 2.2 requires .NET Framework 4.0</li>
 </ul>
         <h2>Installation</h2>
-<p>Run the following command in the Package Manager Console:</p>
+<p>Run the following command in the NuGet Package Manager Console:</p>
 <pre>Install-Package PayPalButtonManagerSDK</pre>
         <h2>Links</h2>
         <ul>
@@ -1201,6 +1202,54 @@ If you are installing osCommerce for the first time, the installation instructio
           </li>
           <li>Copy <code>Payflow_dotNET.dll</code> to your appropriate lib folder.</li>
         </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class='sdk-install'>
+  <h1 id='win8-checkout'>Windows 8 Checkout SDK</h1>
+  <p>The PayPal Windows 8 Checkout SDK gives you the ability to integrate a PayPal checkout flow into your Windows 8 store and phone applications.</p>
+  <div class='tabbable'>
+    <ul class='nav btn-group'>
+      <li class='btn active'>
+        <a data-toggle='tab' href='#win8sdk-tab-store'>Store apps</a>
+      </li>
+      <li class='btn'>
+        <a data-toggle='tab' href='#win8sdk-tab-phone'>Phone apps</a>
+      </li>
+    </ul>
+    <div class='tab-content'>
+      <div class='tab-pane active' id='win8sdk-tab-store'>
+        <h2>Prerequisites</h2>
+        <ul>
+          <li>Visual Studio 2012</li>
+          <li>
+            Onboard your PayPal merchant account as detailed
+            <a href='http://paypal.github.io/Windows8SDK/'>here.</a>
+          </li>
+        </ul>
+        <h2>Installation</h2>
+        <ul>
+          <li>
+            Download the
+            <a href='https://github.com/paypal/Windows8SDK/raw/master/PayPal.Checkout.vsix'>PayPal Checkout VSIX file</a>
+          </li>
+          <li>Double click on the VSIX file to add the PayPal Checkout SDK to your global extensions. Restart Visual Studio, if required.</li>
+          <li>Add a reference to the PayPal Checkout SDK from the `Add Reference -> Windows -> Extensions menu`.</li>
+        </ul>
+      </div>
+      <div class='tab-pane' id='win8sdk-tab-phone'>
+        <h2>Prerequisites</h2>
+        <ul>
+          <li>Visual Studio 2012 with Windows 8 Phone SDK installed.</li>
+          <li>
+            Onboard your PayPal merchant account as detailed
+            <a href='http://paypal.github.io/Windows8SDK/'>here.</a>
+          </li>
+        </ul>
+        <h2>Installation</h2>
+<p>Run the following command in the NuGet Package Manager Console:</p>
+<pre>Install-Package PayPalWindows8PhoneSDK</pre>
       </div>
     </div>
   </div>
