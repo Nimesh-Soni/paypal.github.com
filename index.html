@@ -196,9 +196,9 @@
   <li>composer</li>
 </ul>
         <h2>Installation</h2>
-<p>Add dependency to your application <code>composer.json</code> as below</p>
-<pre>"require": {&#x000A;  "php": ">=5.3.0",&#x000A;  "ext-curl": "*",&#x000A;  "ext-json": "*",&#x000A;  "paypal/rest-api-sdk-php" : "0.7.*"&#x000A;}</pre>
-<p>Run <code>composer update</code>, to install dependency</p>
+<p><code>composer</code> is the recommended way to install the SDK. To use the SDK with project, add the following dependency to your application's composer.json and run <code>composer update --no-dev</code> to fetch the SDK.</p>
+<pre>"require": {&#x000A;  "php": ">=5.3.0",&#x000A;  "ext-curl": "*",&#x000A;  "ext-json": "*",&#x000A;  "paypal/rest-api-sdk-php" : "0.7.*"&#x000A;}&#x000A;</pre>
+<p>If you do not want to use composer, you can grab the <a href="https://github.com/paypal/sdk-packages/raw/gh-pages/rest-api-sdk/php/rest-api-sdk-php-0.7.1.zip">SDK zip</a>, unzip the file to your application folder and require  the 'vendor/autoload.php' file. This file registers a custom autoloader that can autload the PayPal SDK files.</p>
         <h2>Links</h2>
         <ul>
           <li>
