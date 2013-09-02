@@ -237,22 +237,6 @@
           ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
         })();
-        
-        function trackOutboundLink(link) {
-          try {
-            _gaq.push(['_trackEvent', "Outbound Links", link.href]);
-            setTimeout(function() {
-              document.location.href = link.href;
-            }, 100);
-            return false;
-          } catch(err){
-            return true;
-          }
-        }
-        
-        jQuery(document).on('click', 'a[href^="http"]', function(){
-          return trackOutboundLink(this);
-        })
       //]]>
     </script>
   </body>
