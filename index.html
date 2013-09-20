@@ -239,74 +239,17 @@
           </li>
         </ul>
       </div>
-      <div class='tab-pane' id='payments-tab-android'>
-        <h2>Prerequisites</h2>
-<ul>
-  <li>Android 2.2 or later</li>
-  <li>card.io card scanning available only on armv7 devices</li>
-  <li>Phone or tablet</li>
-</ul>
-        <h2>Installation</h2>
-        <ol>
-          <li>
-            <a href="https://github.com/paypal/sdk-packages/raw/gh-pages/MPL/PayPal_MPL_1.5.5.45_Android-Developer-Package.zip">Download</a>
-            or clone
-            <a href="https://github.com/paypal/PayPal-Android-SDK">https://github.com/paypal/PayPal-Android-SDK</a>
-            repository.
-          </li>
-          <li>The SDK includes a .jar, static libraries, release notes, and license acknowledgements. It also includes a sample app.</li>
-          <li>Copy the contents of the SDK libs directory into your project's libs directory. The path to these files is important; if it is not exactly correct, the SDK will not work.</li>
-          <li>Add the open source license acknowledgments from acknowledgments.md to your app's acknowledgments.</li>
-          <li>
-            For configuration and samples
-            <a href="https://github.com/paypal/PayPal-Android-SDK#credentials">github.com/paypal/PayPal-Android-SDK</a>
-          </li>
-        </ol>
-      </div>
       <div class='tab-pane' id='payments-tab-ios'>
-        <h2>Prerequisites</h2>
-<ul>
-  <li>Xcode 4.5+ and iOS SDK 6.0+</li>
-  <li>iOS 5.0+ target deployment</li>
-  <li>armv7 and armv7s devices and the simulator (not armv6)</li>
-  <li>iPhone and iPad of all sizes and resolutions</li>
-</ul>
-        <h2>Installation</h2>
-<ol>
-  <li>
-    <a href="https://github.com/paypal/sdk-packages/raw/gh-pages/MPL/PayPalMPL_2-0-1-iPhone_DevelopersPackage.zip">Download</a>
-    or clone
-    <a href="https://github.com/paypal/PayPal-iOS-SDK">https://github.com/paypal/PayPal-iOS-SDK</a>
-    repository.
-  </li>
-  <li>SDK consists of header files, license acknowledgements, release notes, and a static library. It also includes a sample app.</li>
-  <li>Add the PayPalMobile directory (containing several .h files and libPayPalMobile.a) to your Xcode project. We recommend checking "Copy items..." and selecting "Create groups...".</li>
-  <li>In your project's <b>Build Settings</b>, add <code>-lc++ -ObjC</code> to Other Linker Flags.</li>
-  <li>
-    In your project's <b>Build Phases</b>, link your project with these libraries. Weak linking for iOS versions back to 5.0 is supported.
-    <ul>
-      <li><code>AVFoundation.framework</code></li>
-      <li><code>AudioToolbox.framework</code></li>
-      <li><code>CoreMedia.framework</code></li>
-      <li><code>CoreVideo.framework</code></li>
-      <li><code>libxml2.dylib</code></li>
-      <li><code>MessageUI.framework</code></li>
-      <li><code>MobileCoreServices.framework</code></li>
-      <li><code>OpenGLES.framework</code></li>
-      <li><code>QuartzCore.framework</code></li>
-      <li><code>Security.framework</code></li>
-      <li><code>UIKit.framework</code></li>
-    </ul>
-  </li>
-  <li>
-    Add the open source license acknowledgments from acknowledgments.md to
-    <a href="http://stackoverflow.com/questions/3966116/where-to-put-open-source-credit-information-for-an-iphone-app">your app's acknowledgments</a>
-  </li>
-  <li>
-    For configuration and samples
-    <a href="https://github.com/paypal/PayPal-iOS-SDK#credentials">github.com/paypal/PayPal-iOS-SDK</a>
-  </li>
-</ol>
+        <p>
+          For installation refer
+          <a href='https://github.com/paypal/PayPal-iOS-SDK#paypal-ios-sdk'>github.com/paypal/PayPal-iOS-SDK#paypal-ios-sdk</a>
+        </p>
+      </div>
+      <div class='tab-pane' id='payments-tab-android'>
+        <p>
+          For installation refer
+          <a href='https://github.com/paypal/PayPal-Android-SDK#paypal-android-sdk'>github.com/paypal/PayPal-Android-SDK#paypal-android-sdk</a>
+        </p>
       </div>
     </div>
   </div>
